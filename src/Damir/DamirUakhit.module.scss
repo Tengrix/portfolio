@@ -1,0 +1,33 @@
+@import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixin";
+.DamirUakhitBlock{
+    min-height: 50vh;
+    background-color: $backGroundColor;
+    .DUContainer{
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 30px;
+        h2{
+            @include text($titleFontFamily,22px, 1.2);
+            font-weight: 400;
+            padding-bottom:40px ;
+        }
+        .references{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            flex-wrap: nowrap;
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 140px;
+        align-items: center;
+        color: $textColor;
+    }
+}
+
+
+

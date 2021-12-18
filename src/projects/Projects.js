@@ -1,19 +1,23 @@
 import React from "react";
-import s from './Projects.module.css'
-import styleContainer from "../common/styles/Container.module.css";
+import s from './Projects.module.scss'
+import styleContainer from "../common/styles/Container.module.scss";
 import Project from "./project/Project";
+import Title from "../common/components/Title/Title";
+import todoImg from './../assets/img/Best-To-Do-List-Apps.jpg'
+import socialNetImg from './../assets/img/socialNet.jpg'
+function Projects() {
 
-function Projects(){
-    return(
+    return (
         <div className={s.projectsBlock}>
-            <div className={ `${styleContainer.container} ${s.projectsContainer}`}>
-                <h2 className={s.title}>My Projects</h2>
+            <div className={`${styleContainer.container} ${s.projectsContainer}`}>
+                <Title title={'My Projects'}/>
                 <div className={s.projects}>
-                    <Project text={'Lorem Ipsum is simply dummy text'}/>
-                    <Project text={'when an unknown printer took a galley of type'}/>
+                    <Project style={{ backgroundImage: `url(${socialNetImg})` }} title={'Social network'} description={'Lorem Ipsum is simply dummy text'}/>
+                    <Project style={{ backgroundImage: `url(${todoImg})` }} title={'TodoList'} description={'when an wdsadqedsaqwe unknown printer took a galley of type'}/>
                 </div>
             </div>
         </div>
     )
 }
+
 export default Projects

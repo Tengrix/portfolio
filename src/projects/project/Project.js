@@ -1,12 +1,18 @@
 import React from "react";
-import s from './Project.module.css'
-function Project(props){
-    return(
+import s from './Project.module.scss'
+
+function Project(props) {
+    return (
         <div className={s.project}>
-            <img src={'https://file.liga.net/images/general/2020/09/08/20200908171549-5386.jpg?v=1599578314'} className={s.icon}></img>
-            <button className={s.viewBtn}>View</button>
-            <span className={s.description}>{props.text}</span>
+            <div className={s.image} style={props.style}>
+                <a className={s.viewBtn}>View</a>
+            </div>
+            <div className={s.projectInfo}>
+                <h3 className={s.projectTitle}>{props.title}</h3>
+                <span className={s.description}>{props.description}</span>
+            </div>
         </div>
     )
 }
+
 export default Project

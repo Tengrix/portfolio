@@ -1,0 +1,30 @@
+@import "src/common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixin.scss";
+
+.skill {
+  width: 250px;
+  background: $backGroundColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 5px;
+
+  .icon {
+    height: 60px;
+    width: 60px;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat ;
+  }
+
+  h3 {
+    color: $textColor;
+  }
+
+  .description {
+    @include text($descriptionFontFamily,14px, 1.8);
+    font-weight: 400;
+  }
+}
+

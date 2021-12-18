@@ -1,9 +1,0 @@
-.contactsBlock{
-    height: 50vh;
-    background-color: thistle;
-}
-.contactsContainer{
-    flex-direction: column;
-    justify-content: flex-start;
-}
-

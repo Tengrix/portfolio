@@ -1,0 +1,9 @@
+@import "src/common/styles/sass/variables";
+.nav{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    a{
+        color: $textColor;
+    }
+}
