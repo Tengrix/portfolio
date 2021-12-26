@@ -5,7 +5,6 @@ import Skills from "./skills/Skills";
 import Projects from "./projects/Projects";
 import Contacts from "./Contacts/Contacts";
 import DamirUakhit from "./Damir/DamirUakhit";
-import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
 

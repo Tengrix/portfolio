@@ -7,9 +7,12 @@
     align-items: center;
     justify-content: space-between;
     .icon{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         height: 60px;
         width: 60px;
-        background-color: cadetblue;
         h3{
             color:$textColor;
         }
