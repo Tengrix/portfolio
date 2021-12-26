@@ -1,16 +1,14 @@
 @import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixin";
 
 .socialMedia{
+    @include display(center, space-between, wrap);
     width: 200px;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
     .icon{
+        @include display(center, center, nowrap);
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
         height: 60px;
         width: 60px;
         h3{

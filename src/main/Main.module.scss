@@ -1,15 +1,85 @@
 @import "src/common/styles/sass/variables";
+@import "src/common/styles/sass/mixin";
 .mainBlock{
-    min-height: 100vh;
-    background-color: $backGroundColor;
+  min-height: 100vh;
+  background-color: $backGroundColor;
+  padding: 100px 0;
+  @include display(center,center,nowrap);
+  flex-direction: row;
+
+  .container{
+    @include display(center,space-around,wrap);
+    @include container;
+    flex-direction: row;
     .greeting{
-        width: 300px;
-        background-color: darkgray;
+      @include display(flex-start,flex-start,nowrap);
+      flex-direction: column;
+      span{
+        font-size: 16px;
+        color: white;
+        &:nth-child(2){
+          @include text($titleFontFamily,50px,1.2);
+          letter-spacing: 5px;
+          margin: 10px 0;
+          span{
+            @include text($titleFontFamily,50px, 1.2);
+            letter-spacing: 5px;
+            position: relative;
+            z-index: 0;
+            display: inline-block;
+            &:before{
+              content: '';
+              position: absolute;
+              width: 100%;
+              height: 20px;
+              background-color: $primaryColor;
+              bottom: 0;
+              z-index: -1;
+            }
+          }
+        }
+      }
+      h1{
+        @include text($descriptionFontFamily,28px, 1.8);
+        margin: 0;
+      }
+      @media screen and (max-width: 1143px){
+        align-items: center;
+      }
     }
     .photo{
-        width: 300px;
+      position: relative;
+      z-index: 1;
+      @media screen and (max-width:1143px) {
+        margin-top: 50px;
+      }
+      .image{
         height: 400px;
-        background-color: blue;
+        width: 300px;
+        @include bgSettings();
+        background-image: url("./../assets/img/Damir_Uakhit.JPG");
+        background-position: 80% 0;
+        @media screen and (max-width: 600px) {
+          height: 360px;
+          width: 260px;
+          transition: .5s;
+        }
+        &:before{
+          content: '';
+          position: absolute;
+          height: 110%;
+          width: 105%;
+          border: 5px solid $primaryColor;
+          left: 15px;
+          top:-15px;
+          z-index: -1;
+        }
+      }
     }
+  }
+
+
+
+
 }
 

@@ -1,6 +1,12 @@
 @import "../common/styles/sass/variables.scss";
+@import "src/common/styles/sass/mixin";
+
 .skillsBlock{
     background:$additionalBackGroundColor;
+    .container{
+        @include display(center,space-between,wrap);
+        @include container;
+    }
     .skillsContainer{
         flex-direction: column;
         justify-content: flex-start;

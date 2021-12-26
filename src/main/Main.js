@@ -1,17 +1,21 @@
 import React from "react";
 import s from './Main.module.scss'
-import styleContainer from '../common/styles/Container.module.scss'
+
 function Main() {
 
     return (
         <div className={s.mainBlock}>
-            <div className={styleContainer.container}>
+            <div className={s.container}>
                 <div className={s.greeting}>
                     <span>Hi there</span>
-                    <h1> I am Damir Uakhit</h1>
-                    <p>A Frontend Developer</p>
+                    <span> I am Damir <span>Uakhit</span></span>
+                    <h1>Frontend Developer</h1>
                 </div>
-                <div className={s.photo}></div>
+                <div className={s.photo}>
+                    <div className={s.image}>
+
+                    </div>
+                </div>
             </div>
 
         </div>

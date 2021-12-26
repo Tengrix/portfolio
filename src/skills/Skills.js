@@ -1,19 +1,14 @@
 import React from "react";
 import s from './Skills.module.scss'
-import styleContainer from '../common/styles/Container.module.scss'
 import Skill from "./skill/Skill";
 import Title from "../common/components/Title/Title";
-import Js_img from "../assets/img/js-format.png";
-import React_img from "../assets/img/atom.png";
-import Ts_img from "../assets/img/programming-language.png";
-import {faJs} from "@fortawesome/free-brands-svg-icons";
-import {faReact} from "@fortawesome/free-brands-svg-icons";
+import {faJs, faReact} from "@fortawesome/free-brands-svg-icons";
 import {faCode} from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
     return (
         <div className={s.skillsBlock}>
-            <div className={`${styleContainer.container} ${s.skillsContainer}`}>
+            <div className={`${s.container} ${s.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={s.skills}>
                     <Skill title={'JavaScript'} icon={faJs}

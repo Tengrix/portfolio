@@ -1,42 +1,71 @@
 @import "src/common/styles/sass/variables";
 @import "src/common/styles/sass/mixin";
+@import "src/common/components/Btn/Button.module";
 
-.contactsBlock{
-    background-color: $additionalBackGroundColor;
-    .contactsContainer{
-        flex-direction: column;
-        justify-content: flex-start;
-        .title{
-            @include text($titleFontFamily,28px, 1.2);
-            text-transform: capitalize;
-            letter-spacing: 5px;
-        }
-        .formContainer{
-            width: 50%;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            input, textarea{
-                margin-top: 5px;
-                border-radius: 5px;
-                border: 1px solid gray;
-                background-color: $backGroundColor;
-                width: 100%;
-                height: 25px;
-            }
-            textarea{
-                height: 60px;
-            }
-            .submitBtn{
-                margin: 10px;
-                background-color:$primaryColor;
-                border-radius: 3px;
-                width: 100%;
+.contactsBlock {
+  background-color: $additionalBackGroundColor;
 
-            }
-            @media screen and (max-width: 660px){
-                width: 100%;
-            }
+  .container {
+    @include display(center, space-between, wrap);
+    @include container;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    .formContainer {
+      @include display(center, space-between, wrap);
+      width: 50%;
+      flex-direction: column;
+
+      .formArea, .messageArea {
+        margin-top: 5px;
+        border-radius: 5px;
+        border: 1px solid #4a4a4a;
+        background-color: $backGroundColor;
+        box-sizing: border-box;
+        color: #98a5b4;
+        width: 100%;
+        height: 25px;
+        margin-bottom: 1.2em;
+        &:-webkit-autofill {
+          border: 1px solid #4a4a4a;
+          -webkit-text-fill-color: #495057;
+          transition: background-color 5000s ease-in-out;
+          &:focus{
+            border: 2px solid $additionalBackGroundColor;
+          }
         }
+      }
+      .formArea {
+        height: calc(1.5em + .75rem + 2px);
+        padding: .4em 15px;
+        &:focus{
+          border: 1px solid transparent;
+          transition: all 0.4s ease-in-out;
+        }
+      }
+      .messageArea{
+        min-height: 160px;
+        padding: 15px;
+        resize: none;
+        &:focus{
+          border: 1px solid transparent;
+          transition: all 0.4s ease-in-out;
+        }
+      }
+
+      .submitBtn[type='submit'] {
+        @extend .btn;
+        margin: 10px;
+        border: 1px solid $primaryColor;
+        background-color: $primaryColor;
+        border-radius: 3px;
+        width: 100%;
+
+      }
+
+      @media screen and (max-width: 660px) {
+        width: 100%;
+      }
     }
+  }
 }

@@ -1,8 +1,13 @@
 @import './../common/styles/sass/variables.scss';
+@import "src/common/styles/sass/mixin";
 
 .projectsBlock{
     background: $backGroundColor;
     padding: 20px 0;
+    .container{
+        @include display(center,space-between,wrap);
+        @include container;
+    }
     .projectsContainer{
         flex-direction: column;
         justify-content: flex-start;

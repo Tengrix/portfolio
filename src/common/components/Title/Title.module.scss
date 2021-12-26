@@ -1,7 +1,7 @@
 @import "src/common/styles/sass/variables";
 .title {
   margin: 0 0 30px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: $titleFontFamily;
   font-weight: 300;
   color:$textColor ;
   text-transform: capitalize;
@@ -20,7 +20,7 @@
     content: '';
     background: $primaryColor;
     position: absolute;
-    bottom: -30px;
+    bottom: 10px;
     left: 50%;
     transform: translate(-50%, 50%);
   }

@@ -1,17 +1,15 @@
 import React from 'react'
 import s from './DamirUakhit.module.scss'
-import styleContainer from "../common/styles/Container.module.scss";
 import References from "./References/References";
-import {faGithub} from '@fortawesome/free-brands-svg-icons'
-import {faFacebook} from '@fortawesome/free-brands-svg-icons'
-import {faLinkedinIn} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faGithub, faLinkedinIn} from '@fortawesome/free-brands-svg-icons'
+import Title from "../common/components/Title/Title";
 
 function DamirUakhit() {
 
     return (
         <div className={s.DamirUakhitBlock}>
-            <div className={`${styleContainer.container} ${s.DUContainer}`}>
-                <h2>DAMIR UAKHIT</h2>
+            <div className={`${s.container} ${s.DUContainer}`}>
+                <Title title={'DAMIR UAKHIT'}/>
                 <div className={s.references}>
                     <References title={'LinkedIn'} icon={faLinkedinIn}/>
                     <References title={'GitHub'} icon={faGithub}/>

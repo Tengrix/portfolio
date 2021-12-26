@@ -1,8 +1,5 @@
 import React from "react";
 import s from './References.module.scss'
-import {faReact} from '@fortawesome/free-brands-svg-icons'
-import {faFacebook} from '@fortawesome/free-brands-svg-icons'
-import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
 

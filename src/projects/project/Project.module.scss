@@ -24,14 +24,6 @@
             opacity: 0.4;
 
         }                     // &- родитель. ::before относится к image
-        .viewBtn {
-            color: $textColor;
-            background-color: $btnColor;
-            padding: 10px 20px;
-            border-radius: 20px;
-            position: relative;
-            z-index: 1;
-        }
     }
 
     .projectInfo{
