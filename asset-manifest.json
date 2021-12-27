@@ -5,20 +5,20 @@
     "main.js.map": "/portfolio/static/js/main.dce4ebff.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.cce0b996.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.cce0b996.js.map",
-    "static/js/2.d9f780e0.chunk.js": "/portfolio/static/js/2.d9f780e0.chunk.js",
-    "static/js/2.d9f780e0.chunk.js.map": "/portfolio/static/js/2.d9f780e0.chunk.js.map",
+    "static/js/2.6d58f4b3.chunk.js": "/portfolio/static/js/2.6d58f4b3.chunk.js",
+    "static/js/2.6d58f4b3.chunk.js.map": "/portfolio/static/js/2.6d58f4b3.chunk.js.map",
     "static/js/3.99819305.chunk.js": "/portfolio/static/js/3.99819305.chunk.js",
     "static/js/3.99819305.chunk.js.map": "/portfolio/static/js/3.99819305.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/main.07866449.chunk.css.map": "/portfolio/static/css/main.07866449.chunk.css.map",
-    "static/js/2.d9f780e0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d9f780e0.chunk.js.LICENSE.txt",
+    "static/js/2.6d58f4b3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d58f4b3.chunk.js.LICENSE.txt",
     "static/media/Best-To-Do-List-Apps.ada9da0a.jpg": "/portfolio/static/media/Best-To-Do-List-Apps.ada9da0a.jpg",
     "static/media/Main.module.scss": "/portfolio/static/media/Damir_Uakhit.51dcbed8.JPG",
     "static/media/socialNet.4906a4e5.jpg": "/portfolio/static/media/socialNet.4906a4e5.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cce0b996.js",
-    "static/js/2.d9f780e0.chunk.js",
+    "static/js/2.6d58f4b3.chunk.js",
     "static/css/main.07866449.chunk.css",
     "static/js/main.dce4ebff.chunk.js"
   ]
