@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.07866449.chunk.css",
-    "main.js": "/portfolio/static/js/main.dce4ebff.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dce4ebff.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.cce0b996.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.cce0b996.js.map",
-    "static/js/2.6d58f4b3.chunk.js": "/portfolio/static/js/2.6d58f4b3.chunk.js",
-    "static/js/2.6d58f4b3.chunk.js.map": "/portfolio/static/js/2.6d58f4b3.chunk.js.map",
-    "static/js/3.99819305.chunk.js": "/portfolio/static/js/3.99819305.chunk.js",
-    "static/js/3.99819305.chunk.js.map": "/portfolio/static/js/3.99819305.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.dbee23b0.css",
+    "main.js": "/portfolio/static/js/main.47c08721.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/portfolio/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/Damir_Uakhit.JPG": "/portfolio/static/media/Damir_Uakhit.51dcbed86de26da83201.JPG",
+    "static/media/Best-To-Do-List-Apps.jpg": "/portfolio/static/media/Best-To-Do-List-Apps.ada9da0a47f40fce1e85.jpg",
+    "static/media/socialNet.jpg": "/portfolio/static/media/socialNet.4906a4e5ab094e314448.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/main.07866449.chunk.css.map": "/portfolio/static/css/main.07866449.chunk.css.map",
-    "static/js/2.6d58f4b3.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6d58f4b3.chunk.js.LICENSE.txt",
-    "static/media/Best-To-Do-List-Apps.ada9da0a.jpg": "/portfolio/static/media/Best-To-Do-List-Apps.ada9da0a.jpg",
-    "static/media/Main.module.scss": "/portfolio/static/media/Damir_Uakhit.51dcbed8.JPG",
-    "static/media/socialNet.4906a4e5.jpg": "/portfolio/static/media/socialNet.4906a4e5.jpg"
+    "main.dbee23b0.css.map": "/portfolio/static/css/main.dbee23b0.css.map",
+    "main.47c08721.js.map": "/portfolio/static/js/main.47c08721.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/portfolio/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.cce0b996.js",
-    "static/js/2.6d58f4b3.chunk.js",
-    "static/css/main.07866449.chunk.css",
-    "static/js/main.dce4ebff.chunk.js"
+    "static/css/main.dbee23b0.css",
+    "static/js/main.47c08721.js"
   ]
 }
