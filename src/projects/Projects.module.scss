@@ -2,7 +2,6 @@
 @import "src/common/styles/sass/mixin";
 
 .projectsBlock{
-    background: $backGroundColor;
     padding: 20px 0;
     .container{
         @include display(center,space-between,wrap);

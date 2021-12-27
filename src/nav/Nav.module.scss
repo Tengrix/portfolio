@@ -1,9 +1,20 @@
 @import "src/common/styles/sass/variables";
-.nav{
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    a{
-        color: $textColor;
+@import "src/common/styles/sass/mixin";
+
+.nav {
+  width: 300px;
+  display: flex;
+  justify-content: space-around;
+  a {
+    @include text($titleFontFamily,16px,1.2);
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: $primaryColor;
     }
+  }
+
+  .active {
+    color: $primaryColor;
+  }
 }

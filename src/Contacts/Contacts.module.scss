@@ -3,8 +3,7 @@
 @import "src/common/components/Btn/Button.module";
 
 .contactsBlock {
-  background-color: $additionalBackGroundColor;
-
+  min-height: 80vh;
   .container {
     @include display(center, space-between, wrap);
     @include container;
