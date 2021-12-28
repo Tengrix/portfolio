@@ -7,16 +7,21 @@ import socialNetImg from './../assets/img/socialNet.jpg'
 import Fade from 'react-reveal/Fade';
 
 function Projects() {
-
+    // const projectLinkToSN = () =>{
+    //     return <a href='https://tengrix.github.io/profile'/>
+    // }
+    // const projectLinkToToDo = () =>{
+    //     return <a href='https://tengrix.github.io/todolist-incubator/'/>
+    // }
     return (
         <div className={s.projectsBlock}>
             <div className={`${s.container} ${s.projectsContainer}`}>
                 <Fade bottom>
                     <Title title={'My Projects'}/>
                     <div className={s.projects}>
-                        <Project style={{backgroundImage: `url(${socialNetImg})`}} title={'Social network'}
+                        <Project link='https://tengrix.github.io/workproject' style={{backgroundImage: `url(${socialNetImg})`}} title={'Social network'}
                                  description={'Lorem Ipsum is simply dummy text'}/>
-                        <Project style={{backgroundImage: `url(${todoImg})`}} title={'TodoList'}
+                        <Project link='https://tengrix.github.io/todolist-incubator/' style={{backgroundImage: `url(${todoImg})`}} title={'TodoList'}
                                  description={'when an wdsadqedsaqwe unknown printer took a galley of type'}/>
                     </div>
                 </Fade>

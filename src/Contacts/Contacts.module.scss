@@ -59,6 +59,9 @@
         background-color: $primaryColor;
         border-radius: 3px;
         width: 100%;
+        &:hover{
+          background-color: $backGroundColor;
+        }
 
       }
 

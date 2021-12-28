@@ -14,9 +14,9 @@ function DamirUakhit() {
                 <Fade bottom>
                     <Title title={'DAMIR UAKHIT'}/>
                     <div className={s.references}>
-                        <References title={'LinkedIn'} icon={faLinkedinIn}/>
-                        <References title={'GitHub'} icon={faGithub}/>
-                        <References title={'Facebook'} icon={faFacebook}/>
+                        <References network='https://www.linkedin.com/in/rimad-ten-75b0b9132/' title={'LinkedIn'} icon={faLinkedinIn}/>
+                        <References network='https://github.com/Tengrix' title={'GitHub'} icon={faGithub}/>
+                        <References network='https://www.facebook.com/profile.php?id=100004856475563' title={'Facebook'} icon={faFacebook}/>
                     </div>
                 </Fade>
             </div>
