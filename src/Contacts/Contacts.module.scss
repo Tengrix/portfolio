@@ -14,7 +14,9 @@
       @include display(center, space-between, wrap);
       width: 50%;
       flex-direction: column;
-
+      span{
+        color: $errorColor;
+      };
       .formArea, .messageArea {
         margin-top: 5px;
         border-radius: 5px;

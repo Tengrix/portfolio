@@ -5,6 +5,7 @@ import Title from "../common/components/Title/Title";
 import todoImg from './../assets/img/Best-To-Do-List-Apps.jpg'
 import socialNetImg from './../assets/img/socialNet.jpg'
 import Fade from 'react-reveal/Fade';
+import aviasales from './../assets/img/aviasales-vector-logo-small.png'
 
 function Projects() {
     // const projectLinkToSN = () =>{
@@ -20,9 +21,11 @@ function Projects() {
                     <Title title={'My Projects'}/>
                     <div className={s.projects}>
                         <Project link='https://tengrix.github.io/workproject' style={{backgroundImage: `url(${socialNetImg})`}} title={'Social network'}
-                                 description={'Lorem Ipsum is simply dummy text'}/>
+                                 description={'Working on a Social network project. Still in progress...'}/>
                         <Project link='https://tengrix.github.io/todolist-incubator/' style={{backgroundImage: `url(${todoImg})`}} title={'TodoList'}
-                                 description={'when an wdsadqedsaqwe unknown printer took a galley of type'}/>
+                                 description={'Tried to make a complex ToDo Lists, with many features.'}/>
+                        <Project link='https://tengrix.github.io/aviasales/' style={{backgroundImage: `url(${aviasales})`}} title={'Aviasales(fligth-tickets)'}
+                                 description={'Layout of one of the most popular app Aviasales. Check it out!'}/>
                     </div>
                 </Fade>
             </div>

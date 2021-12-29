@@ -5,6 +5,7 @@ import Title from "../common/components/Title/Title";
 import {faJs, faReact} from "@fortawesome/free-brands-svg-icons";
 import {faCode} from "@fortawesome/free-solid-svg-icons";
 import Fade from 'react-reveal/Fade';
+import {faStar} from "@fortawesome/free-solid-svg-icons";
 
 function Skills() {
     return (
@@ -14,11 +15,11 @@ function Skills() {
                     <Title title={'Skills'}/>
                     <div className={s.skills}>
                         <Skill title={'JavaScript'} icon={faJs}
-                               description={'Lorem Ipsum is simply dummy text of the printing and typesetting industry.'}/>
+                               description={'Simple things are done simply. Let\'s make web pages alive.'}/>
                         <Skill title={'TypeScript'} icon={faCode}
-                               description={'when an unknown printer took a galley of type and scrambled centuries'}/>
+                               description={'Typescript is a strict superset of Javascript and compiles down to really clean code. '}/>
                         <Skill title={'React'} icon={faReact}
-                               description={'but also the leap into electronic typesetting, remaining essentially unchanged.'}/>
+                               description={'ReactJS is a multi-purpose, open-source library that is mainly used in front-end development, focusing on building user interfaces. Learn React Once and Write Everywhere'}/>
                     </div>
                 </Fade>
             </div>

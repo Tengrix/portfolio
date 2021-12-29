@@ -14,7 +14,7 @@ function Contacts() {
         sendFeedback(
             'service_il63oey',
             'template_rcdxn5p',
-            {from_name:data.name, from_email:data.email, message:data.message},
+            {from_name:data.name, reply_to:data.email, message:data.message},
             'user_T5shzWRNLcqnTffqxpgFq'
         )
         console.log(data.email)
@@ -37,10 +37,10 @@ function Contacts() {
                     <form onSubmit={handleSubmit(onSubmitHandler)} className={s.formContainer}>
                         <input {...register('name', {required:true})} className={s.formArea} name='name'
                                placeholder={'Name'}/>
-                        {errors.name && <span>This field is required</span>}
-                        <input {...register('email',{required:true})} className={s.formArea} name='email'
+                        {errors.name && <span>Name is required</span>}
+                        <input {...register('email',{required:'Email is required', pattern: {value:/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i, message: "Invalid email address"}})} className={s.formArea} name='email'
                                placeholder={'@-mail'}/>
-                        {errors.email && <span>This field is required</span>}
+                        {errors.email && <span>{errors.email?.message}</span>}
                         <textarea {...register('message', {required:true})} className={s.messageArea} name='message'
                                   placeholder={'Comments'}/>
                         {errors.message && <span>This field is required</span>}
